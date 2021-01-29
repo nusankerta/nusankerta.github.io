@@ -50,6 +50,33 @@
 
 </head>
 <body>
+
+<!-- Analytic-->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBLlXz5ObuQcj6utqTTkNxqM6_QkJBNsII",
+    authDomain: "nusankertaweb.firebaseapp.com",
+    projectId: "nusankertaweb",
+    storageBucket: "nusankertaweb.appspot.com",
+    messagingSenderId: "77991162153",
+    appId: "1:77991162153:web:759f2a6912baa33999c738",
+    measurementId: "G-4WSV7XJ5R2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 	<div class="preloader">
   <div class="inner">
   <figure class="logo"><img src="images/logo-light.png" alt="Image"></figure>
